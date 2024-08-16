@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color:#333
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #77A4D4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    color:#f4f4f4;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .cta-btn {
+    float: right;
+    margin-top: 15px;
+    background: #77A4D4;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#hero {
+    background: url('lens-hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#features {
+    padding: 50px 0;
+    background-color: #a3c0e0;
+    border: 2px solid black;
+}
+
+.feature-item {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#testimonials {
+    background:  #a4c6ea;
+    padding: 50px 0;
+    border: 2px solid black;
+}
+
+.testimonial {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#contact {
+    padding: 50px 0;
+    background-color: #ddd;
+    border: 2px solid black;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin: 10px 0 5px 0;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact-form button {
+    padding: 10px;
+    background: orangered;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+#know{
+    background-color:  #f4f4f4;
+    border: 2px solid black;
+}
